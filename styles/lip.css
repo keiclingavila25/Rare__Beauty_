@@ -1,0 +1,89 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'baskerville';
+}
+main .productos{
+	padding: 30px 0 60px 0;
+	background: #f0efef;
+	padding-bottom: 30px;
+}
+.producto{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.productos about{
+	width: 43%;
+	color: #000000 ;
+	padding: 12px;
+}
+
+.iluminador{
+	width: 45%;
+	height: 45%;
+	padding: 10px 0 30px 0;
+}
+
+
+/*padding: 60px 0;
+	width:30%;
+	height:30;
+	padding:10px 0px 0px 0px;
+	max-width:1000px;
+	margin:auto;
+	overflow:hidden;*/
+
+.about span{
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	width: 30px;
+	height: 20px;
+	padding: 2px;
+
+}
+
+.about h1{
+	font-size:18px;
+	padding: 10px 0px 30px 0px;
+	text-align: center;
+	color:#5a474f;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 30%;
+}
+.about h2{
+	font-size:20px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	color:#6a2847;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 30%;
+}
+.about h3{
+	font-size:50px;
+	padding: 10px 0px 30px 0px;
+	text-align: center;
+	color:#6a2847;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 30%;
+}
+.about p{
+	color:#000000;
+	font-size:20px;
+	text-align:center;
+	padding:0px 0px 0px 0 px;
+	align-items:center;
+	font-weight: 300;
+	width: 30%;
+}
+

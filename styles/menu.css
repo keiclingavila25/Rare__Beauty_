@@ -1,0 +1,50 @@
+*{}
+nav{
+text-align: right;
+padding: 0 50px 0 0;
+/*MENÚ*/
+}
+
+nav >a{
+	color: #990156;
+	text-decoration: none;
+	margin-right: 5px;
+	
+	padding: 10px 10px 30px 10px;
+}
+
+nav >a:hover {
+	text-decoration: underline;
+}
+@media screen and (max-width:500px){
+
+nav{
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+nav > a{
+    margin-right: 5px;
+}
+header .textos-header{
+	display: right;
+	height: 1500px;
+	width: 1800%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.imagen-port>img{
+	width:600%;
+	height: 180px;
+	padding-bottom:120px;
+	padding-top:120px;
+	background-image: url(../imagenes/seli.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	background-position: center;
+
+}

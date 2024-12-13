@@ -1,0 +1,153 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	font-family:'poppins';
+}
+/*acomodo de la imagen*/
+.contenedor{
+	padding: 60 px 0;
+	width:1890%;
+	max-width:1000px;
+	margin:auto;
+	overflow:hidden;
+	margin left:190px;
+	line-height:150%;
+	margin-right:190px;
+}
+.contenedor-texto{
+	padding: 60 px 0;
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	overflow:hidden;
+	margin left:190px;
+	line-height:150%;
+	margin-right:190px;	
+}
+.contenedor-texto h2{
+	font-size:30px;
+	margin-left:0px;
+	padding:15px 0px 30px 0px; /*arriba, derecha, abajo, izq*/
+	text-align:center;
+	color:#8e345b;
+}
+.titulo {
+	font-size:40px;
+	margin-left:0px;
+	padding:30px 0px 30px 0px;
+	text-align:center;
+	color:#e39889;
+}
+
+
+.galeria-port{
+	display:flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+}
+
+.imagen-port{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 5px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+
+/*tamaño de la primer imagen, la queda fija*/
+.imagen-port>img{
+	width: 10%;
+	height: 10%;
+	object-fit: cover;
+	display: block;
+}
+/*caja de la imagen, tamaño de la segunda imagen, la que aparece cuando pasas el cursor por encima*/
+.hover-galeria{
+	position: absolute;
+	width: 2390px;
+	height: 2567px;
+	top: 0;
+	transform: scale(0);
+	background: hsla(273, 91%, 27%, 0.7);
+	transition: transform .5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.hover-galeria img{
+	width: 100px;
+}
+.imagen-port:hover .hover-galeria{
+	transform: scale(1);
+}
+/*texto arriba*/
+.about p{
+	font-size:18px;
+	padding: 10px 0px 30px 0px;
+	text-align:center;
+	color:#373335;
+    justify-content: center;
+
+}
+.about h6{
+	font-size:22px;
+	padding:0px 0px 30px 0px;
+	text-align:center;
+	color:#6d4054;
+}
+.about h3{
+	font-size:30px;
+	padding:30px 0px 30px 0px;
+	text-align:center;
+	color:#8e345b;
+}
+
+.about h2{
+	font-size:35px;
+	padding:30px 0px 30px 0px;
+	text-align:center;
+	color:#8e345b;
+}
+.about h4{
+	font-size:20px;
+	padding:30px 0px 30px 0px;
+	text-align:center;
+	color:#a90054;
+}
+.about h5{
+	font-size:20px;
+	padding:30px 0px 30px 0px;
+	text-align:center;
+	color:#a90054;
+}
+@media screen and (max-width:900px){
+	
+	imagen-port{
+		width: 44%;
+	}
+}
+@media screen and (max-width:500px){
+	nav{
+		text-align: center;
+		padding: 30px 0 0 0;
+	}
+
+	nav > a{
+		margin-right: 5px;
+	}
+	imagen-port{
+		width: 95%;
+	}	
+}
+footer{
+	background: #f2f2f2;
+	padding: 60px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+	text-align:center;
+}
